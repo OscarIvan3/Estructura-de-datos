@@ -42,17 +42,41 @@ public class EstructuraDeDatos {
 
         System.out.println(String.format("El area del triangulo con base %.2f y altura %.2f es %.2f", base, heigth, triangleArea));
 
-        Scanner objScanner2 = new Scanner(System.in);
         System.out.print("Ingresa el radio del circulo");
 
-        double radius = objScanner2.nextDouble();
+        double radius = objScanner.nextDouble();
 
         CircleArea objCircleArea = new CircleArea();
         double circleArea = objCircleArea.calculateArea(radius);
         System.out.println(String.format("El area del circulo es %.2f", circleArea));
-        objScanner2.close();
-
+        //Matriz
         MultiDimensionalArrays objMultiDimensionalArrays = new MultiDimensionalArrays();
         objMultiDimensionalArrays.printbidimensionalArray();
+
+
+        //Numeros par o impar
+        NumberType objNumberType = new NumberType();
+        objNumberType.numeros();
+
+        //Examen 1er Parcial 
+        GradeCalculationPartial objCalculationPartial = new GradeCalculationPartial();
+        System.out.print("Assignment grade: ");
+        double assignments = objScanner.nextDouble();
+        System.out.print("Exam grade: ");
+        double examPartial = objScanner.nextDouble();
+        objCalculationPartial.CalculateFinalGrade(examPartial, assignments);
+
+
+        //Examen 1Parcial
+
+        SalesWithDiscount objSalesWithDiscount =  new SalesWithDiscount();
+        objSalesWithDiscount.totalWithDiscount();
+        System.out.println("El total de la venta es de: "+ objSalesWithDiscount.totalWithDiscount());
+
+
+
+                
+        
+
     }
 }
