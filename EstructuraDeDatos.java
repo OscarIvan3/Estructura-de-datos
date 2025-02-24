@@ -51,5 +51,8 @@ public class EstructuraDeDatos {
         double circleArea = objCircleArea.calculateArea(radius);
         System.out.println(String.format("El area del circulo es %.2f", circleArea));
         objScanner2.close();
+
+        MultiDimensionalArrays objMultiDimensionalArrays = new MultiDimensionalArrays();
+        objMultiDimensionalArrays.printbidimensionalArray();
     }
 }
