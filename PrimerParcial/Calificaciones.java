@@ -1,3 +1,4 @@
+package PrimerParcial;
 public class Calificaciones {
     public static void main(String[] args) {
         double[] calificaciones = {85.5, 90.0, 78.5};

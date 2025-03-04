@@ -1,3 +1,4 @@
+package PrimerParcial;
 public class MultiDimensionalArrays {
     public static void main(String[] args) {
         // Crear una instancia de la clase

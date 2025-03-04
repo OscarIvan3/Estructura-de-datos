@@ -1,3 +1,4 @@
+package PrimerParcial;
 public class clase{
     public static void main(String[] args) {
         String[] nombres = {"oscar", "carlo", "ceesar", "Justin"};

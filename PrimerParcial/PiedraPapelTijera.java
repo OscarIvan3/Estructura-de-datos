@@ -1,3 +1,4 @@
+package PrimerParcial;
 //Oscar Aragon 
 //14715
 //Piedra papel o tijera

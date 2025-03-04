@@ -1,3 +1,4 @@
+package PrimerParcial;
 //Calcular Area de un triangulo 
 //Oscar Aragon
 //14715

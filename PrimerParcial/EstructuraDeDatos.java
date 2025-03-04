@@ -1,3 +1,4 @@
+package PrimerParcial;
 import java.util.Scanner;
 
 import javax.swing.SortOrder;
