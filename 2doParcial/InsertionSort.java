@@ -39,4 +39,9 @@ public class InsertionSort {
         }
         System.out.println("\nOperaciones realizadas: " + operacionesMejor);
     }
+
+    public static int sort(int[] insertionArray) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sort'");
+    }
 }
