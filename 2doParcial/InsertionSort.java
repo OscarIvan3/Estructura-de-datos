@@ -16,7 +16,6 @@ public class InsertionSort {
                 operaciones++;
             }
             arr[j + 1] = key;
-            operaciones++;
         }
         return operaciones;
     }
@@ -38,10 +37,5 @@ public class InsertionSort {
             System.out.print(num + " ");
         }
         System.out.println("\nOperaciones realizadas: " + operacionesMejor);
-    }
-
-    public static int sort(int[] insertionArray) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'sort'");
     }
 }
