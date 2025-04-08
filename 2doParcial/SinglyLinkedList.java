@@ -76,6 +76,7 @@ public class SinglyLinkedList {
         list.insert(10);
         list.insert(20);
         list.insert(30);
+        list.insert(50);
 
         System.out.println("List:");
         list.display();
