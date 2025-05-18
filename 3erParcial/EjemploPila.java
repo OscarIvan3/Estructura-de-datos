@@ -1,23 +1,19 @@
 import java.util.Stack;
 
 public class EjemploPila {
-    public void valorPila (String valor ){
-        Stack<String> pila = new Stack<>();
+    public Stack<String> pila = new Stack<>(); //Corregido con ayuda de AI
 
-        // PUSH: Agregando elementos
+    public void valorPila(String valor) {
+        // Puedes usar la pila que ya declaraste:
         pila.push("Plato 1");
         pila.push("Plato 2");
         pila.push("Plato 3");
 
-        // PEEK: Consultando el elemento en la cima
         System.out.println("Elemento en la cima: " + pila.peek());
 
-        // POP: Eliminando elementos de la pila
         System.out.println("Elemento removido: " + pila.pop());
         System.out.println("Elemento removido: " + pila.pop());
 
-        // PEEK: Estado final de la pila
         System.out.println("Elemento en la cima ahora: " + pila.peek());
     }
-    }
-       
+}
