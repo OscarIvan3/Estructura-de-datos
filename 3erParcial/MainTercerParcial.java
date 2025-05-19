@@ -1,6 +1,6 @@
 public class MainTercerParcial {
     public static void main(String[] args ) {
-        // EjemploCola.main(args);
+        
 
         
         EjemploCola ejemploCola = new EjemploCola();
@@ -49,6 +49,15 @@ public class MainTercerParcial {
         listaSimple.delete(30);
         System.out.println("Después de eliminar el 30:");
         listaSimple.display();
+
+
+        ListaCircular listaaCircular = new ListaCircular();
+        listaaCircular.agregar(1);
+        listaaCircular.agregar(2);
+        listaaCircular.agregar(3);
+        listaaCircular.agregar(4);
+
+        lista.mostrar();
     }
 }
 
