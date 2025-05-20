@@ -76,6 +76,18 @@ public class MainTercerParcial {
         System.out.println(arbol.existe(1)); // true
         System.out.println(arbol.existe(7)); // false
         System.out.println(arbol.existe(0)); // true
+
+
+        Grafo grafo = new Grafo();
+
+        grafo.agregarVertice("A");
+        grafo.agregarVertice("B");
+        grafo.agregarVertice("C");
+
+        grafo.agregarArista("A", "B");
+        grafo.agregarArista("A", "C");
+
+        grafo.mostrarGrafo();
     }
 }
 
